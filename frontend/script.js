@@ -97,16 +97,6 @@ const handleSubmit = async (e) => {
     }
   );
 
-  //   const responsew = await axios.post(
-  //     "https://codex-chatgpt-clone-utsu.onrender.com/",
-  //     {
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //     },
-  //     data
-  //   );
-
   clearInterval(loadInterval);
   messageDiv.innerHTML = " ";
 
