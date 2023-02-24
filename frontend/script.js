@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   const response = await fetch(
-    "https://codex-chatgpt-clone-utsu.onrender.com/",
+    "https://codex-chatgpt-clone-utsu.onrender.com",
     {
       method: "POST",
       headers: {
